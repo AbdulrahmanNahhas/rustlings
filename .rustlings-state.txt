@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-iterators2
+iterators5
 
 intro1
 intro2
@@ -38,3 +38,7 @@ structs3
 enums1
 enums2
 enums3
+iterators1
+iterators2
+iterators3
+iterators4

@@ -2,7 +2,7 @@
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org)
 [![GitLab](https://img.shields.io/badge/GitLab-330F2F?style=for-the-badge&logo=gitlab&logoColor=E24329)](https://gitlab.com)
-[![Progress](https://img.shields.io/badge/Progress-30.4%2F100%20Percentage-orange?style=for-the-badge)](https://gitlab.com)
+[![Progress](https://img.shields.io/badge/Progress-43.6%2F100%20Percentage-orange?style=for-the-badge)](https://gitlab.com)
 
 > 💡 **Note:** This repository tracks my personal journey and progress through the official [Rustlings](https://rustlings.rust-lang.org) course.
 
