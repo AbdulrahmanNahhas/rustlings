@@ -1,9 +1,6 @@
 { ... }:
 {
-  languages.rust = {
-    enable = true;
-    channel = "nixpkgs";
-  };
+  languages.rust.enable = true;
 
   enterShell = ''
     rustc --version
