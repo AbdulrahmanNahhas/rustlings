@@ -2,13 +2,11 @@
 {
   languages.rust.enable = true;
 
-  enterShell = ''
-    rustc --version
-    cargo --version
-  '';
-
   enterTest = ''
-    echo "Running tests"
-    cargo --version | grep --color=auto "cargo"
+    set -e
+
+    cargo fmt --all -- --check
+    cargo clippy --all-targets -- -D warnings
+    cargo test
   '';
 }
