@@ -7,34 +7,36 @@
 use std::collections::HashMap;
 
 fn fruit_basket() -> HashMap<String, u32> {
-    // TODO: Declare the hash map.
-    // let mut basket =
+  // DONE: Declare the hash map.
+  let mut basket = HashMap::new();
 
-    // Two bananas are already given for you :)
-    basket.insert(String::from("banana"), 2);
+  // Two bananas are already given for you :)
+  basket.insert(String::from("banana"), 2);
 
-    // TODO: Put more fruits in your basket.
+  // DONE: Put more fruits in your basket.
+  basket.insert(String::from("apple"), 5);
+  basket.insert(String::from("orange"), 3);
 
-    basket
+  basket
 }
 
 fn main() {
-    // You can optionally experiment here.
+  // You can optionally experiment here.
 }
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+  use super::*;
 
-    #[test]
-    fn at_least_three_types_of_fruits() {
-        let basket = fruit_basket();
-        assert!(basket.len() >= 3);
-    }
+  #[test]
+  fn at_least_three_types_of_fruits() {
+    let basket = fruit_basket();
+    assert!(basket.len() >= 3);
+  }
 
-    #[test]
-    fn at_least_five_fruits() {
-        let basket = fruit_basket();
-        assert!(basket.values().sum::<u32>() >= 5);
-    }
+  #[test]
+  fn at_least_five_fruits() {
+    let basket = fruit_basket();
+    assert!(basket.values().sum::<u32>() >= 5);
+  }
 }
